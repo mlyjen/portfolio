@@ -1,0 +1,361 @@
+html, body{
+    min-height: 100%;
+}
+
+body {
+    position:relative;
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: #52b3d9;
+}
+
+.nav {
+    height: 100px;
+}
+
+.navmenu {
+    float: right;
+    margin-top: 15px ;
+    margin-bottom: 15px ;
+}
+
+.navmenu li {
+    display: inline;
+    margin: 15px;
+}
+
+.navmenu li a {
+    font-weight: 600;
+    color: white;
+    font-size: 1.1em;
+
+}
+
+.navbar {
+    background: #2c88a3;
+    border: 0px;
+
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.4);
+}
+
+.container,
+.container-fluid {
+    position: relative;
+}
+
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -70px;
+    left: 0;
+    visibility: hidden;
+}
+
+h1, h2, h3, p, a, ul {
+    font-family: Raleway;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+
+}
+
+.contenttext {
+    text-align: justify;
+}
+
+.container h1,
+.container-fluid h1 {
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.content .container,
+.content .container-fluid {
+    margin-bottom: 60px;
+}
+
+.profilepic {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.icon {
+    display: block;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    bottom: 0;
+}
+
+.icon:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+hr.text-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 3px solid #2c88a3;
+}
+
+h3.icon-text {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profilepic > img,
+.profilepic a > img,
+.icon > img,
+.icon a > img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-responsive,
+.profilepic > img,
+.profilepic a > img,
+.icon > img,
+.icon a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-wide
+{
+    width: 100%;
+}
+
+.profilepic {
+    margin-top: 20px;
+    max-width: 450px;
+}
+
+.infobox {
+    background: rgba(255,255,255,5);
+    color: #000000;
+}
+
+
+.hero-unit {
+    background-image:url('http://ursamart.com/images/fd5/dark-wood-texture-decorating-5.jpg');
+    background-size:cover;
+    background-color: #4f4f4f;
+    height:400px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.4);
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.4);
+
+}
+
+
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+}
+
+.hero-title h1 {
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    display: inline;
+    border-bottom: #ffffff;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+}
+.hero-sub h2 {
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px)  {
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .navmenu {
+        min-height: 60px;
+    }
+
+    li {
+        font-size: 2em;
+    }
+
+    body {
+    padding-top: 60px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+
+
+#portfoliorow {
+    margin-top: 20px;
+}
+
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+
+.portfolio-header {
+    font-size: 2.5em;
+}
+
+.portfolio-subtitle {
+    font-size: 1.2em;
+}
+
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h1 {
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.portfolio-modal .modal-content h3 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio-modal .modal-content ul {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 100;
+    text-align: right;
+}
+
+.portfolio-modal .modal-content ul li {
+    margin: 15px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+.btn-custom {
+    margin-top: 80px;
+    font-family: Raleway;
+    width: 150px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+
+.btn-custom:hover {
+    color: white;
+    font-weight: 700;
+}
